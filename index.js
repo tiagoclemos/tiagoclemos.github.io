@@ -71,7 +71,7 @@ function criarNovo() {
 }
 
 function adicionaNovo(cadastro) {
-  fetch('http://localhost:3000/Clientes', {
+  fetch('tl.json', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
@@ -93,7 +93,7 @@ document.getElementById('apagar').addEventListener('click', apagarNovo);
 function apagarNovo(){
   const taskIDtoDelete = document.getElementById('id').value;
 
-  fetch(`http://localhost:3000/Clientes/${taskIDtoDelete}`,{
+  fetch(`'tl.json/${taskIDtoDelete}`,{
     method: 'DELETE'
   })
   .then(response => {
@@ -140,7 +140,7 @@ function atualizarCliente() {
     telefone: telefone
   };
 
-  fetch(`http://localhost:3000/Clientes/${id}`, {
+  fetch('tl.json${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
