@@ -1,0 +1,28 @@
+{
+  "Clientes": [
+    {
+      "id": 2,
+      "nome": "Maria da SIlva",
+      "email": "jose@gmail.com",
+      "telefone": "123-45678"
+    },
+    {
+      "id": 3,
+      "nome": "Antonio da Silva",
+      "email": "jose@gmail.com",
+      "telefone": "123-45678"
+    },
+    {
+      "id": 4,
+      "nome": "Tiago Silva",
+      "email": "jose@gmail.com",
+      "telefone": "123-45678"
+    },
+    {
+      "id": 5,
+      "nome": "mirmfir",
+      "email": "mfifri",
+      "telefone": "3445566"
+    }
+  ]
+}
